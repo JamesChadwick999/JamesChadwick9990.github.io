@@ -146,7 +146,6 @@
 .box{
     border-radius: 20px;
     width:290px;
-    height:380px;
     padding:25px;  
     text-align: center; 
     border: 2px solid black; 
@@ -162,6 +161,7 @@
 .e{
     text-align: center;
     font-size: 28px;
+    margin:30px;
 }
 .m{
     width:200px;
