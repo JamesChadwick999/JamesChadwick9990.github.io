@@ -253,11 +253,10 @@
 }
 .r{
     display:grid;
-    justify-content: center;
     grid-template-columns: 1fr;
 }
 .o{
-    width:290px;
+    width:320px;
     height:300px;
     border-radius: 20px;
 }
@@ -266,7 +265,7 @@
     border-radius: 20px;
     box-shadow:0 0 10px rgb(0, 5, 5);
     margin-bottom: 100px;
-    height:350px;
+    height:450px;
 }
 .push{
     margin-left: 30px;
