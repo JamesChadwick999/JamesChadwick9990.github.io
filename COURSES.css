@@ -254,6 +254,9 @@
 .r{
     display:grid;
     grid-template-columns: 1fr;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .o{
     width:320px;
