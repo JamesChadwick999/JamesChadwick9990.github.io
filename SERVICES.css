@@ -225,55 +225,6 @@
         transform:translate(var(--x), var(--y)) scale(0.3);
     }
 }
-nav-image{
-    width:100px;
-    height:100px;
-    margin:10px;
-}
-.nav-bar{
-    display:flex;
-}
-.body1{
-    margin-left:50px;
-    text-align:left;
-}
-.body-text{
-    font-size:90px;
-    color:white;
-}
-.body-p{
-    font-size:30px;
-    color:white;
-}
-#spark-zone{
-    position:relative;
-    width:100px;
-    height:100px;
-    margin-top: 200px;
-    margin-right: 280px;
-}
-.align{
-    display:flex;
-    justify-content: space-between;
-}
-.particle{
-    position: absolute;
-    width:35px;
-    height:35px;
-    border-radius: 50%;
-    pointer-events:none;
-    animation:explode 1s ease-out forwards;
-}
-@keyframes explode {
-    0%{
-        opacity:1;
-        transform:translate(0,0) scale(1);
-    }
-    100%{
-        opacity:0;
-        transform:translate(var(--x), var(--y)) scale(0.3);
-    }
-}
 .p{
     margin-top: 80px;
     font-size:40px;
